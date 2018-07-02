@@ -83,3 +83,23 @@ html{
 .services h3{
 	font-weight: bold;
 }
+
+/***Portafolio section***/
+.portafolio{
+	background: #424141;
+	color: #fff;
+}
+
+.portafolio a{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.portafolio img{
+	transition: all .3s ease;
+}
+
+.portafolio a:hover img{
+	transform: scale(1.5);
+}
