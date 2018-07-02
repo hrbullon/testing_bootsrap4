@@ -11,7 +11,7 @@ html{
 
 .welcome-text{
 	color: #fff;
-    margin-top: 5rem;
+    margin-top: 9rem;
 }
 
 .fixed-top{
@@ -36,6 +36,9 @@ html{
 .navbar-light .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
     text-align: center;
+    padding: .7rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
@@ -98,8 +101,29 @@ html{
 
 .portafolio img{
 	transition: all .3s ease;
+	min-width: 100%;
 }
 
 .portafolio a:hover img{
 	transform: scale(1.5);
+}
+
+/***Footer section***/
+.footer{
+	color: #fff;
+	background: #222222;
+}
+
+/***Media Queries***/
+@media (min-width: 768px){
+	html{
+		font-size: 16px;
+	}
+
+	.welcome{
+		background: url('../images/big-background-welcome.jpg');
+		background-size: cover;
+		height: 100vh;
+		overflow: hidden;
+	}
 }
