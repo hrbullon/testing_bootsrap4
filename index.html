@@ -7,12 +7,86 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" >
+    <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="css/fontsawesome.css" >
-
+    <!-- Custome styles CSS -->
+    <link rel="stylesheet" href="css/styles.css" >
+    
     <title>Hello, world!</title>
-  </head>
+  </head>    
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <div class="container">
+        <header class="head">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+              <a class="navbar-brand" href="#">Aulaideal.com</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portafolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div class="welcome-text text-center">
+          <p class="h5">Bienvenidos a nuestro estudio</p>
+          <h1 class="display-4 mb-3">ENCANTADOS DE CONOCERTE</h1>
+          <a href="#" class="btn btn-primary btn-lg">PONTE EN CONTACTO</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about py-3 text-center">
+      <div class="container">
+        <img src="images/about.svg" alt="about" width="181" class="mx-auto d-block mb-3">
+        <h2 class="h3">¿QUIENES SOMOS?</h2>
+        <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
+        <a href="#" class="btn btn-light btn-lg">MAS INFORMACIÓN</a>
+      </div>
+    </section>
+    <!-- About Services -->
+    <section class="services py-3 text-center">
+      <div class="container">
+        <h2 class="h3 mb-5">NUESTROS SERVICIOS</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-briefcase"></i>
+            <h3 class="mb-3">Aplicaciones para la nube</h3>
+            <p>Para empresa que requiera ampliar sus plataformas de gestión</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-bullhorn"></i>
+            <h3 class="mb-3">Fábrica de software</h3>
+            <p>Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-check-square"></i>
+            <h3 class="mb-3">Diseño personalizado</h3>
+            <p>Personaliza hasta el último píxel de tu App. Inifinítas Posibilidades.</p>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
